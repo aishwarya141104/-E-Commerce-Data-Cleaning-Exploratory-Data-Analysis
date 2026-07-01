@@ -1,295 +1,114 @@
+<div align="center">
+
 # 🛒 E-Commerce Data Cleaning & Exploratory Data Analysis
 
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=30&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Data+Cleaning+Project;Exploratory+Data+Analysis;Python+%7C+Pandas+%7C+NumPy+%7C+Matplotlib;Business+Insights+%26+Visualization;GitHub+Portfolio+Project" />
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=aishwarya141104&label=Profile+Views&color=0e75b6&style=for-the-badge"/>
+
+<img src="https://img.shields.io/github/stars/aishwarya141104/Data_Cleaning_Project?style=for-the-badge"/>
+
+<img src="https://img.shields.io/github/forks/aishwarya141104/Data_Cleaning_Project?style=for-the-badge"/>
+
+<img src="https://img.shields.io/github/license/aishwarya141104/Data_Cleaning_Project?style=for-the-badge"/>
+
+</div><p align="center">
+
+<img width="850" src="https://user-images.githubusercontent.com/74038190/216656963-1d4d7ddf-89fb-4b3d-9b69-17d2e6b6d8d2.gif">
+
+</p># ⚡ Tech Stack
+
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=120&section=header"/>
+# 📌 About The Project
+
+> This project demonstrates an end-to-end **Data Cleaning & Exploratory Data Analysis (EDA)** workflow on an E-Commerce Sales dataset using **Python**.
+
+The project includes:
+
+✔ Data Cleaning
+
+✔ Missing Value Treatment
+
+✔ Feature Engineering
+
+✔ Outlier Detection
+
+✔ Business Insights
+
+✔ Professional Visualizations
+
+✔ GitHub Portfolio Ready Documentation
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-black?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical-blue?style=for-the-badge&logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter)
-![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github)
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=aishwarya141104&repo=Data_Cleaning_Project"/>
 
 </p>
+# 🚀 Project Workflow
 
----
-
-## 📌 Project Overview
-
-This project demonstrates a complete **Data Cleaning and Exploratory Data Analysis (EDA)** workflow on an E-Commerce sales dataset containing **1200 customer orders**.
-
-The objective is to clean the raw dataset, identify missing values, perform feature engineering, analyze business performance, and visualize key insights using Python.
-
----
-
-# 📊 Dataset Information
-
-| Attribute | Value |
-|------------|--------|
-| Dataset Type | E-Commerce Sales |
-| Total Records | 1200 |
-| Total Columns | 14 |
-| Missing Values | CouponCode (309) |
-| Duplicate Rows | 0 |
-| Data Source | Excel (.xlsx) |
-
----
-
-# 🗂 Dataset Features
-
-- OrderID
-- Date
-- CustomerID
-- Product
-- Quantity
-- UnitPrice
-- ShippingAddress
-- PaymentMethod
-- OrderStatus
-- TrackingNumber
-- ItemsInCart
-- CouponCode
-- ReferralSource
-- TotalPrice
-
----
-
-# 🎯 Objectives
-
-- Perform data cleaning
-- Handle missing values
-- Detect duplicates
-- Perform feature engineering
-- Generate business insights
-- Create professional visualizations
-- Export cleaned dataset
-
----
-
-# ⚙ Technologies Used
-
-| Technology | Purpose |
-|------------|----------|
-| Python | Programming |
-| Pandas | Data Cleaning |
-| NumPy | Numerical Operations |
-| Matplotlib | Data Visualization |
-| Jupyter Notebook | Development Environment |
-
----
-
-# 📁 Project Structure
-
+```text
+Raw Excel Dataset
+        │
+        ▼
+Data Import
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Missing Values
+        │
+        ▼
+Duplicate Check
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
+Business Insights
+        │
+        ▼
+Professional Visualizations
+        │
+        ▼
+Clean Dataset Export
 ```
-Data_Cleaning_Project
-│
-├── Dataset for Data Analytics.xlsx
-├── cleaned_dataset.csv
-├── Data_Cleaning_Project.ipynb
-├── README.md
-│
-├── images
-│   ├── dataset.png
-│   ├── missing_values.png
-│   ├── product_sales.png
-│   ├── payment_method.png
-│   ├── revenue_product.png
-│   ├── monthly_sales.png
-│   ├── correlation.png
-│   └── ...
-│
-└── report.pdf
-```
+<p align="center">
 
----
+![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
 
-# 🧹 Data Cleaning Process
+![](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
 
-✔ Imported dataset
+![](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
 
-✔ Checked data types
+![](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter)
 
-✔ Checked missing values
+![](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
 
-✔ Filled missing CouponCode with **"No Coupon"**
+![](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
 
-✔ Verified duplicates
+</p>
+<p align="center">
 
-✔ Outlier detection
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
 
-✔ Created new Date features
+</p>
+<p align="center">
 
-✔ Exported cleaned dataset
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=aishwarya141104&show_icons=true&theme=tokyonight"/>
 
----
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=aishwarya141104&theme=tokyonight"/>
 
-# 📈 Exploratory Data Analysis
+</p>
+<p align="center">
 
-The following analyses were performed:
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=0:00C9FF,100:92FE9D"/>
 
-- Product-wise Sales
-- Revenue by Product
-- Monthly Sales Trend
-- Payment Method Analysis
-- Coupon Usage Analysis
-- Referral Source Analysis
-- Order Status Distribution
-- Quantity Distribution
-- Unit Price Distribution
-- Top Customers
-- Items in Cart Analysis
-- Daily Orders
-- Correlation Heatmap
-- Yearly Revenue
-- Boxplot Analysis
+</p>
+<img src="https://skillicons.dev/icons?i=python,pandas,numpy,git,github,vscode"/>
 
----
-
-# 📷 Project Screenshots
-
-## Dataset Preview
-
-![Dataset](images/dataset.png)
-
----
-
-## Missing Values
-
-![Missing Values](images/missing_values.png)
-
----
-
-## Product Sales
-
-![Product Sales](images/product_sales.png)
-
----
-
-## Monthly Sales Trend
-
-![Monthly Sales](images/monthly_sales.png)
-
----
-
-## Revenue by Product
-
-![Revenue](images/revenue_product.png)
-
----
-
-## Correlation Matrix
-
-![Correlation](images/correlation.png)
-
----
-
-# 📊 Business Insights
-
-### ✔ Dataset Quality
-
-- Dataset contains **1200 records**
-- No duplicate entries
-- Only one column contains missing values
-
----
-
-### ✔ Customer Behaviour
-
-- Customers prefer selected payment methods over others.
-- Coupon usage is relatively low compared to non-coupon purchases.
-
----
-
-### ✔ Product Performance
-
-- Some products generate significantly higher revenue.
-- High-priced products contribute most to total sales.
-
----
-
-### ✔ Sales Trend
-
-- Monthly revenue shows seasonal fluctuations.
-- Business experiences peak sales during specific months.
-
----
-
-### ✔ Marketing
-
-- Referral sources contribute differently to sales.
-- Social media channels generate valuable customer traffic.
-
----
-
-# 📌 Future Improvements
-
-- Dashboard using Power BI
-- Tableau Dashboard
-- Machine Learning Sales Prediction
-- Customer Segmentation
-- Sales Forecasting
-- Interactive Streamlit Dashboard
-
----
-
-# ▶ How to Run
-
-Clone the repository
-
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
-```
-
-Go to project folder
-
-```bash
-cd YOUR_REPOSITORY_NAME
-```
-
-Install dependencies
-
-```bash
-pip install pandas numpy matplotlib openpyxl
-```
-
-Run Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open
-
-```
-Data_Cleaning_Project.ipynb
-```
-
----
-
-# 📦 Python Libraries
-
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-```
-
----
-
-# 📜 License
-
-This project is developed for educational and portfolio purposes.
-
----
-
-# 👩‍💻 Author
-
-**Aishwarya Kulkarni**
-
-GitHub:
-https://github.com/aishwarya141104
-
----
-
-## ⭐ If you found this project useful,
-
-Please consider giving it a ⭐ on GitHub!
+</p><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=120&section=header"/>
