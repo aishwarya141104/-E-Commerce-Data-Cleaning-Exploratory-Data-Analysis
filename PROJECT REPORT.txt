@@ -1,0 +1,65 @@
+                                                               PROJECT REPORT
+E-Commerce Data Cleaning & Exploratory Data Analysis Using Python
+Project Overview
+This project focuses on cleaning and analyzing an E-Commerce sales dataset using Python. The dataset consists of 1,200 customer order records containing product information, customer details, payment methods, order status, coupon codes, referral sources, and sales values. The objective was to improve data quality, perform exploratory data analysis (EDA), and generate meaningful business insights to support data-driven decision-making.
+
+Tools & Technologies
+* Python 
+* Jupyter Notebook 
+* Pandas 
+* NumPy 
+* Matplotlib 
+* OpenPyXL 
+* Git & GitHub 
+
+Project Objectives
+* Import and inspect the dataset. 
+* Identify and handle missing values. 
+* Verify duplicate records and data consistency. 
+* Detect outliers in numerical features. 
+* Perform Exploratory Data Analysis (EDA). 
+* Visualize trends using professional charts. 
+* Export the cleaned dataset for future analysis. 
+
+Data Cleaning Process
+* Loaded the Excel dataset into Python. 
+* Examined dataset structure, data types, and summary statistics. 
+* Checked for missing values and found 309 missing values in the CouponCode column. 
+* Replaced missing coupon values with "No Coupon". 
+* Verified that the dataset contained no duplicate records. 
+* Confirmed correct data types for all columns. 
+* Reviewed numerical columns for potential outliers using boxplots. 
+* Exported the cleaned dataset as cleaned_dataset.csv. 
+
+Exploratory Data Analysis
+The project includes multiple visualizations, including:
+* Product-wise Sales Analysis 
+* Monthly Sales Trend 
+* Revenue by Product 
+* Payment Method Distribution 
+* Order Status Distribution 
+* Coupon Usage Analysis 
+* Referral Source Analysis 
+* Correlation Matrix 
+* Quantity Distribution 
+* Unit Price Distribution 
+* Top Customers Analysis 
+* Items in Cart Distribution 
+Key Business Insights
+* The dataset contains 1,200 customer orders with 14 features. 
+* No duplicate records were identified. 
+* CouponCode was the only column with missing values. 
+* High-priced products contributed significantly to total revenue. 
+* Customer payment preferences varied across multiple payment methods. 
+* Monthly sales trends indicate seasonal purchasing behavior. 
+* Referral sources play an important role in customer acquisition. 
+* Product demand differs considerably across categories. 
+
+
+Project Outcome
+The project successfully transformed raw sales data into a clean, structured, and analysis-ready dataset. Through effective data cleaning and visualization techniques, valuable business insights were generated to support strategic decision-making. This project demonstrates practical skills in data preprocessing, exploratory data analysis, business intelligence, and data visualization using Python.
+
+Prepared By
+Aishwarya Kulkarni
+Aspiring Data Analyst | Python Developer | Data Science Enthusiast
+
