@@ -2,345 +2,127 @@
 
 # 🛒 E-Commerce Data Cleaning & Exploratory Data Analysis
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Professional+Data+Cleaning+Project;Exploratory+Data+Analysis+(EDA);Python+%7C+Pandas+%7C+NumPy+%7C+Matplotlib;Business+Insights+and+Visualization;GitHub+Portfolio+Project"/>
-
-<br>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Welcome+to+My+Data+Analytics+Project!;Data+Cleaning+using+Python;Exploratory+Data+Analysis+(EDA);Business+Insights+%26+Visualizations"/>
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-black?style=for-the-badge&logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical-blue?style=for-the-badge&logo=numpy)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter)
-![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github)
 
 </div>
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
-This project demonstrates a complete **Data Cleaning** and **Exploratory Data Analysis (EDA)** workflow using Python.
+This project demonstrates a complete **Data Cleaning** and **Exploratory Data Analysis (EDA)** workflow on an **E-Commerce Sales Dataset** using **Python, Pandas, NumPy, and Matplotlib**.
 
-The dataset contains **1200 E-Commerce orders** with customer details, products, payments, coupon information, and sales records.
-
-The objective is to clean the raw dataset, improve data quality, engineer useful features, and generate meaningful business insights through visualizations.
+The dataset contains **1,200 customer orders** with information about products, payments, coupons, referral sources, and sales. The project focuses on cleaning the dataset, handling missing values, exploring data, and generating business insights through visualizations.
 
 ---
 
-# 🎯 Objectives
+## 🎯 Objectives
 
-- Import and inspect raw data
+- Clean raw data
 - Handle missing values
 - Check duplicate records
 - Detect outliers
-- Create new features
-- Perform Exploratory Data Analysis
-- Generate business insights
+- Perform Exploratory Data Analysis (EDA)
+- Create business visualizations
 - Export cleaned dataset
 
 ---
 
-# 📊 Dataset Information
+## 🛠️ Technologies Used
 
-| Feature | Value |
-|---------|-------|
-| Dataset Type | E-Commerce Sales |
-| Records | 1200 |
-| Columns | 14 |
-| Missing Values | CouponCode |
-| Duplicate Rows | 0 |
-| File Format | Excel (.xlsx) |
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+- Git & GitHub
 
 ---
 
-# 📂 Dataset Columns
-
-- OrderID
-- Date
-- CustomerID
-- Product
-- Quantity
-- UnitPrice
-- ShippingAddress
-- PaymentMethod
-- OrderStatus
-- TrackingNumber
-- ItemsInCart
-- CouponCode
-- ReferralSource
-- TotalPrice
-
----
-
-# ⚙️ Technologies Used
-
-| Tool | Purpose |
-|------|---------|
-| Python | Programming |
-| Pandas | Data Cleaning |
-| NumPy | Numerical Analysis |
-| Matplotlib | Data Visualization |
-| Jupyter Notebook | Development Environment |
-| GitHub | Version Control |
-
----
-
-# 📁 Project Structure
+## 📂 Project Structure
 
 ```text
-E-Commerce-Data-Cleaning-EDA
-│
-├── Dataset for Data Analytics.xlsx
-├── cleaned_dataset.csv
-├── Data_Cleaning_Project.ipynb
-├── README.md
-│
-└── images
-      ├── dataset.png
-      ├── missing_values.png
-      ├── payment_methods.png
-      ├── monthly_sales.png
-      ├── product_sales.png
-      ├── revenue_by_product.png
-      ├── order_status.png
-      ├── coupon_usage.png
-      ├── correlation.png
-      └── top_customers.png
+E-Commerce-Data-Cleaning-EDA/
+│── Data_Cleaning_Project.ipynb
+│── Dataset for Data Analytics.xlsx
+│── cleaned_dataset.csv
+│── README.md
+└── images/
 ```
 
 ---
 
-# 🔄 Project Workflow
+## 📊 Key Insights
 
-```text
-Raw Dataset
-      │
-      ▼
-Import Dataset
-      │
-      ▼
-Data Cleaning
-      │
-      ▼
-Missing Value Treatment
-      │
-      ▼
-Duplicate Check
-      │
-      ▼
-Feature Engineering
-      │
-      ▼
-Exploratory Data Analysis
-      │
-      ▼
-Data Visualization
-      │
-      ▼
-Business Insights
-      │
-      ▼
-Clean Dataset Export
-```
+- ✅ Dataset contains **1,200 orders**
+- ✅ No duplicate records found
+- ✅ Missing values handled successfully
+- ✅ Product-wise sales analyzed
+- ✅ Monthly sales trends identified
+- ✅ Revenue and payment methods visualized
+- ✅ Business insights generated through EDA
 
 ---
 
-# 🧹 Data Cleaning
-
-✔ Imported Excel Dataset
-
-✔ Checked Data Types
-
-✔ Verified Dataset Shape
-
-✔ Checked Missing Values
-
-✔ Filled Missing Coupon Codes
-
-✔ Verified Duplicate Records
-
-✔ Checked Outliers
-
-✔ Created Date Features
-
-✔ Exported Clean Dataset
-
----
-
-# 📈 Exploratory Data Analysis
-
-The following visualizations were created:
-
-- Product-wise Sales
-- Monthly Sales Trend
-- Payment Method Distribution
-- Revenue by Product
-- Coupon Usage Analysis
-- Referral Source Analysis
-- Order Status Distribution
-- Quantity Distribution
-- Unit Price Distribution
-- Top Customers
-- Items in Cart Analysis
-- Daily Orders
-- Yearly Sales
-- Correlation Matrix
-- Boxplots for Numerical Features
-
----
-
-# 📷 Project Screenshots
-
-## Dataset Preview
-
-![Dataset](images/dataset.png)
-
----
-
-## Missing Values
-
-![Missing Values](images/missing_values.png)
-
----
-
-## Monthly Sales
-
-![Monthly Sales](images/monthly_sales.png)
-
----
-
-## Revenue by Product
-
-![Revenue](images/revenue_by_product.png)
-
----
-
-## Payment Methods
-
-![Payment](images/payment_methods.png)
-
----
-
-## Correlation Matrix
-
-![Correlation](images/correlation.png)
-
----
-
-# 💡 Key Business Insights
-
-- Dataset contains **1200 customer orders**.
-- No duplicate records were found.
-- Only **CouponCode** contained missing values.
-- Missing coupon values were replaced with **"No Coupon"**.
-- Revenue varies significantly across products.
-- Payment methods reveal customer purchasing preferences.
-- Monthly sales indicate seasonal business trends.
-- High-value products contribute most to total revenue.
-- Marketing referral sources impact customer acquisition.
-- Customers purchasing more items generate higher sales.
-
----
-
-# 📦 Installation
-
-Clone the repository
+## 🚀 How to Run
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
-```
+git clone https://github.com/YOUR_USERNAME/E-Commerce-Data-Cleaning-EDA.git
 
-Go to project directory
+cd E-Commerce-Data-Cleaning-EDA
 
-```bash
-cd YOUR_REPOSITORY_NAME
-```
-
-Install required libraries
-
-```bash
 pip install pandas numpy matplotlib openpyxl
-```
 
-Launch Jupyter Notebook
-
-```bash
 jupyter notebook
 ```
 
-Open
+Open **Data_Cleaning_Project.ipynb** and run all cells.
 
-```text
-Data_Cleaning_Project.ipynb
+---
+
+## 📸 Project Screenshots
+
+Add your charts inside the **images/** folder and display them here.
+
+```markdown
+![Monthly Sales](images/monthly_sales.png)
+
+![Revenue by Product](images/revenue_by_product.png)
+
+![Payment Method](images/payment_methods.png)
 ```
 
 ---
 
-# 💻 Python Libraries
-
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-```
-
----
-
-# 📌 Future Improvements
+## 📈 Future Improvements
 
 - Interactive Power BI Dashboard
 - Tableau Dashboard
 - Customer Segmentation
 - Sales Forecasting
-- Machine Learning Models
 - Streamlit Web Application
-- KPI Dashboard
 
 ---
 
-# 📈 Repository Highlights
+## 👩‍💻 Author
 
-- Professional Data Cleaning Workflow
-- Feature Engineering
-- Business Intelligence
-- Data Visualization
-- Portfolio Ready
-- GitHub Documentation
-- Clean Code Structure
+**Aishwarya Kulkarni**
 
----
+🌱 Aspiring Data Analyst | Python Developer | Data Science Enthusiast
 
-# 👩‍💻 Author
-
-## Aishwarya Kulkarni
-
-💼 Aspiring Data Analyst
-
-🐍 Python Developer
-
-📊 Data Analytics Enthusiast
-
-🌱 Currently Learning Data Science & Machine Learning
-
-GitHub:
-
-https://github.com/aishwarya141104
-
----
-
-# ⭐ Support
-
-If you found this project useful,
-
-please consider giving this repository a ⭐ on GitHub.
-
-It helps support my learning journey and future projects.
+🔗 GitHub: https://github.com/aishwarya141104
 
 ---
 
 <div align="center">
 
-## 🚀 Thank You for Visiting!
+⭐ **If you found this project helpful, please give it a Star!** ⭐
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=120&section=footer"/>
 
