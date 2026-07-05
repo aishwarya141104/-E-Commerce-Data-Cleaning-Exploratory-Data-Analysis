@@ -85,21 +85,6 @@ jupyter notebook
 Open **Data_Cleaning_Project.ipynb** and run all cells.
 
 ---
-
-## 📸 Project Screenshots
-
-Add your charts inside the **images/** folder and display them here.
-
-```markdown
-![Monthly Sales](images/monthly_sales.png)
-
-![Revenue by Product](images/revenue_by_product.png)
-
-![Payment Method](images/payment_methods.png)
-```
-
----
-
 ## 📈 Future Improvements
 
 - Interactive Power BI Dashboard
